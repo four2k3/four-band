@@ -1,0 +1,32 @@
+/* RESPONSIVE */
+/*  */
+@media (max-width: 1023px) and ( min-width: 740px){
+    #contact .my-infor {margin-left: 30px;}
+   .about{margin: 0 ; }
+   .tickets{width: 96vw;margin: 0 2vw;}
+    .list-place{margin:  0 2vw;}
+    .place{ width: 236px;}
+    .list-place .center{margin: 0 calc(50% - 118px *3 );}
+    .place img{width: 236px;}
+    .text-form .send{margin-left: calc(100vw - 80px);}
+
+   }
+   
+@media (max-width: 739px){
+    #navigation >li {display: block;}
+    div#header {height: 46px;overflow: hidden;}
+    .css-search{ display: none;} 
+    .css-menu{ display: block;}   
+    .about{margin: 0 calc(50vw - 50%);}
+    .member .img img{width: 230px ;}
+    .about .member .img{ width: 230px; margin: 0 calc(50% - 115px) }
+    .tickets {width: 96vw;margin: 0 2vw;}
+    .place{width: 96vw; margin: 0 2vw}
+    .place img{width: 96vw;}
+    .list-place .center{margin: 0 2vw ;}
+    #contact{  margin: 60px calc(50vw  - 50%);}
+    .sub-contact{margin-top: 40px; margin-left: 2vw;}
+    .text-form .small,.text-form .big{width: 96vw;margin: 5px 2vw;}
+    .text-form .send{ margin:10px 2vw 0 0 ;   float:right; }
+
+}
